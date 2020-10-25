@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:weightSum="5">
+
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@android:color/holo_blue_light"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:text="My Profile"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/gambar"
+            android:layout_width="230dp"
+            android:layout_height="230dp"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/aditya"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:layout_centerInParent="true"
+            />
+
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_below="@+id/gambar"
+            android:layout_centerInParent="true"
+            android:text="Aditya Fajri Melinianto"
+            android:textAlignment="center"
+            android:background="@android:color/holo_blue_light"
+            android:textColor="@android:color/white"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/nim"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_below="@+id/nama"
+            android:layout_marginTop="20dp"
+            android:layout_centerInParent="true"
+            android:text="1800018359"
+            android:textAlignment="center"
+            android:background="@android:color/holo_blue_light"
+            android:textColor="@android:color/white"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:id="@+id/hobi"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_below="@+id/nim"
+            android:layout_marginTop="20dp"
+            android:layout_centerInParent="true"
+            android:text="Dengerin Musik"
+            android:textAlignment="center"
+            android:background="@android:color/holo_blue_light"
+            android:textColor="@android:color/white"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:id="@+id/motivasi"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_below="@+id/hobi"
+            android:layout_marginTop="50dp"
+            android:layout_centerInParent="true"
+            android:text="Hemat pangkal kaya"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:gravity="center_horizontal" />
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
