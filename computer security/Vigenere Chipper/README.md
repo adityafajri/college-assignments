@@ -24,8 +24,8 @@ Issue tracker : <a href="https://github.com/adityafajri/college-assignments/issu
 Pull request : <a href="https://github.com/adityafajri/college-assignments/pulls" target=" _blank"> https://github.com/adityafajri/college-assignments/pulls</a><br>
 
 # Citation
-* Special thanks to Geeksforgeeks for the well explained article and algorithm about this vigenere chipper
-* https://www.geeksforgeeks.org/vigenere-cipher/
+* GeeksforGeeks Team. “Vigenere Chipper.” GeeksforGeeks,<br>
+&nbsp;&nbsp; www.ehow.com/how_10727_make-vegetarian-chili.html. Accessed 26 October 2020.
 
 # Contact
 * adityafajrimelinianto@gmail.com
