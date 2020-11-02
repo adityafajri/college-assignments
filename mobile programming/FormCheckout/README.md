@@ -25,3 +25,4 @@ Pull request : <a href="https://github.com/adityafajri/college-assignments/pulls
 
 # Contact
 * adityafajrimelinianto@gmail.com
+* evandermaikel@gmail.com 
