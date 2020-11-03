@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/animasi"
+    android:layout_centerHorizontal="true">
+    <LinearLayout
+        android:id="@+id/form"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:text="Selamat Datang"
+            android:textColor="@android:color/white"
+            android:fontFamily="cursive"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="25sp"
+            android:text="Postest"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:fontFamily="cursive"
+            android:gravity="center_horizontal" />
+
+        <ImageView
+            android:layout_width="288dp"
+            android:layout_height="123dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:src="@drawable/logo_uad_ban_pt"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"
+            android:hint="Username"
+            android:textColorHint="@android:color/white"
+            android:backgroundTint="@android:color/white"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"
+            android:hint="Password"
+            android:textColorHint="@android:color/white"
+            android:inputType="textPassword"
+            android:backgroundTint="@android:color/white"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/repassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"
+            android:hint="Repassword"
+            android:inputType="textPassword"
+            android:textColorHint="@android:color/white"
+            android:backgroundTint="@android:color/white"
+            android:padding="10dp" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"
+                android:layout_marginBottom="10dp">
+                <CheckBox
+                    android:id="@+id/checkbok"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:text="Saya setuju dengan syarat dan ketentuan"/>
+            </LinearLayout>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Masuk"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DAFTAR"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <!-- gradient color -->
+    <color name="purple_500">#9c27b0</color>
+    <color name="deep_purple_500">#673ab7</color>
+    <color name="oren1">#ff9966</color>
+    <color name="oren2">#ff5e62</color>
+    <color name="cyan_500">#00bcd4</color>
+    <color name="light_blue_500">#03a9f4</color>
+</resources>
