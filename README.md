@@ -16,4 +16,4 @@ Welcome to my college assignments repository, here you can find my end-of-semest
 </ol>
 </details>
   
-Thanks for visiting this repository, if you find this useful please consider to follow me and add this repository to you favorite(s)
+Thanks for visiting this repository, if you find this useful please consider to follow me and add this repository to you favorite(s). i will appreciate that so much
