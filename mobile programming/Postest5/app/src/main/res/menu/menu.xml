@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/praktikum"
+        android:title="Praktikum"/>
+
+    <item
+        android:id="@+id/about"
+        android:title="About Me">
+
+        <menu>
+            <item
+                android:id="@+id/biodata"
+                android:title="Biodata"/>
+            <item
+                android:id="@+id/favorites"
+                android:title="Favorites"/>
+        </menu>
+
+    </item>
+</menu>

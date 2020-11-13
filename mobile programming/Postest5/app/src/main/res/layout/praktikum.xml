@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:layout_centerHorizontal="true">
+
+    <LinearLayout
+        android:id="@+id/form"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:text="Menghitung"
+            android:textColor="@android:color/black"
+            android:fontFamily="casual"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:text="Volume limas"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:fontFamily="casual"
+            android:gravity="center_horizontal" />
+
+        <ImageView
+            android:layout_width="288dp"
+            android:layout_height="123dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            android:textAlignment="center"
+            android:src="@drawable/limas" />
+
+
+        <EditText
+            android:id="@+id/Panjang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@android:color/white"
+            android:hint="panjang"
+            android:padding="10dp"
+            android:inputType="number"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/Lebar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/black"
+            android:inputType="number"
+            android:backgroundTint="@android:color/white"
+            android:hint="lebar"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/Tinggi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/black"
+            android:hint="tinggi"
+            android:inputType="number"
+            android:backgroundTint="@android:color/white"
+            android:padding="10dp" />
+        <Button
+            android:id="@+id/Hitung"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Hitung"
+            />
+        <TextView
+            android:id="@+id/Hasil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hasil"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:gravity="center_horizontal" />
+
+    </LinearLayout>
+</RelativeLayout>
+
